@@ -1,0 +1,29 @@
+.excel-section {
+  margin-top: 40px;
+}
+
+.excel-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .excel-cards-grid {
+    gap: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .excel-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .excel-section {
+    margin-top: 32px;
+  }
+}
+
